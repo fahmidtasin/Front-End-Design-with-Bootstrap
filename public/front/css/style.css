@@ -1,0 +1,64 @@
+
+.top-bar{
+
+    height: 355px;
+    background: linear-gradient(169.2deg, #8BC43F 26.53%, rgba(255, 255, 255, 0) 271.72%);
+    font-weight: 600;
+    text-align: center;
+    padding: 125px;
+
+}
+
+.default-color{
+    background: linear-gradient(169.2deg, #8BC43F 26.53%, rgba(255, 255, 255, 0) 271.72%);
+}
+
+#card-rectangle{
+    width: auto;
+    height: 62px;
+
+    background: #97D446;
+    border-radius: 5px;
+}
+
+.btn-color{
+    background: floralwhite;
+    color: black;
+    border: 1px solid black;
+}
+.btn:hover{
+    background: #5cb85c;
+    color: white;
+    border: 1px solid #8BC43F;
+}
+
+.search-btn-color{
+    background: #97D446;
+}
+
+#details-card {
+    width: auto;
+    height: 62px;
+    background: floralwhite;
+    color: black;
+    text-align: center;
+}
+
+#rectangle-msg{
+    position: relative;
+    width: auto;
+    height: 156px;
+
+    background: rgba(242, 242, 242, 0.5);
+    border-radius: 8px;
+}
+
+#rectangle-active{
+    position: absolute;
+    width: 10px;
+    height: 156px;
+
+    background: #97D446;
+    border-radius: 8px;
+}
+
